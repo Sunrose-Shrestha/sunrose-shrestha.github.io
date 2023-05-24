@@ -2916,7 +2916,25 @@ input, select, textarea {
 	}
 
 /* Section/Article */
+.is-preload #myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 15px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: white !important;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 2px #ffffff;
+	
+}
 
+.is-preload #myBtn:hover {
+	  background-color: #555;
+}
 	section.special, article.special {
 		text-align: center;
 	}
@@ -4701,3 +4719,4 @@ input, select, textarea {
 		}
 
 	}
+	
