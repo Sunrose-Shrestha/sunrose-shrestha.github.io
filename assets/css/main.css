@@ -2916,7 +2916,7 @@ input, select, textarea {
 	}
 
 /* Section/Article */
-.is-preload #myBtn {
+#myBtn {
 	display: none;
 	position: fixed;
 	bottom: 20px;
@@ -2932,7 +2932,7 @@ input, select, textarea {
 	
 }
 
-.is-preload #myBtn:hover {
+#myBtn:hover {
 	  background-color: #555;
 }
 	section.special, article.special {
