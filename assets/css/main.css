@@ -2919,7 +2919,7 @@ input, select, textarea {
 #myBtn {
 	display: none;
 	position: fixed;
-	bottom: 40px;
+	bottom: 20%;
 	right: 15px;
 	z-index: 99;
 	font-size: 15px;
